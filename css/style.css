@@ -1,20 +1,76 @@
-*{
-    margin: 0;
-    padding: 0;
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
 }
 
-header{
-    height: 100px;
-    background: #8e8ed3;
-    padding: 0 50 px;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
-.logo{
+body {
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+header img {
+    justify-content: calc((100%)/2 - 120rem);
+}
+
+h1 {
+    font-size: 40rem;
+    font-weight: lighter;
+}
+
+.contenedor {
+    max-width: 100rem;
+    margin: 2rem auto;
+}
+
+.contenedor.button a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    font-weight: bold;
     text-transform: uppercase;
-    color:aquamarine;
-    font-weight: 200;
+}
+
+.button {
+    background: rgb(198, 42, 42);
+    border-color: transparent;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+#banner {
+    max-width: 100rem;
+    height: 55rem;
+    margin: auto;
+    background: url(../img/bg-seccion1.png);
+}
+
+.puntos {
+    justify-content:center;
+    text-align:right;
+    float: right;
+    
+}
+
+#promo .contenedor {
+    max-width: 90rem;
+    margin: 2rem auto;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    background-color: #434242;
+    color: #ffffff;
 }
